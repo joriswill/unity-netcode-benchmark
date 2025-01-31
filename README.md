@@ -60,9 +60,13 @@ This repository holds the various netcode projects and It's benchmark result suc
 
 ### Fusion
 
-- Developers have to import the fusion package by their own
+1. Developers have to import the fusion package by their own
+    - Photon doesn't provide a archive of their packages (not good for comparison)
+    - You have to download the latest version of the package from their website. (register required)
+    - Link Fuison V1: https://doc.photonengine.com/fusion/v1/getting-started/sdk-download
+    - Link Fusion V2: https://doc.photonengine.com/fusion/current/getting-started/sdk-download
     - Fusion has ToS to not put their code online (public repo)
-- Create your own Realtime app settings
+- Create your own Realtime app settings (<- doesn't seem to be necessary)
 
 ### Other Netcode
 
