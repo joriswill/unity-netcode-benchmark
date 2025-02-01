@@ -16,19 +16,19 @@ MonoBehaviour:
   - Assembly-CSharp.dll
   _Prefabs:
   - Obj: {fileID: 2440836851821840829, guid: 13a52e04f9a46af48b2b4c749cbaf1c3, type: 3}
-    InstanceId: 18546
+    InstanceId: 18172
     Name: SphereSine
     FileName: Assets/_Benchmark/Prefabs/SphereSine.prefab
     GO: {fileID: 2440836851821840828, guid: 13a52e04f9a46af48b2b4c749cbaf1c3, type: 3}
     Id: 0
   - Obj: {fileID: 2440836851821840829, guid: 5a6b7b3ef7307854d85bc7e72fda4586, type: 3}
-    InstanceId: 18542
+    InstanceId: 18176
     Name: SphereSineMoveY
     FileName: Assets/_Benchmark/Prefabs/SphereSineMoveY.prefab
     GO: {fileID: 2440836851821840828, guid: 5a6b7b3ef7307854d85bc7e72fda4586, type: 3}
     Id: 1
   - Obj: {fileID: 2440836851821840829, guid: 4f56e6c25cc846140b914b041dbc7e90, type: 3}
-    InstanceId: 18506
+    InstanceId: 18180
     Name: SphereWander
     FileName: Assets/_Benchmark/Prefabs/SphereWander.prefab
     GO: {fileID: 2440836851821840828, guid: 4f56e6c25cc846140b914b041dbc7e90, type: 3}
@@ -38,7 +38,8 @@ MonoBehaviour:
   MaxPlayers: 16
   MaxObjects: 512
   MaxSendableDataSize: 50000
-  AllocatorBlockSize: 65536
+  AllocatorStateBlockSize: 131072
+  AllocatorMetaBlockSize: 1048576
   ReceiveBufferSize: 32768
   SendBufferSize: 16384
   Timeout: 10
@@ -54,6 +55,7 @@ MonoBehaviour:
   SimClientLoss: 0
   EnableLagCompensation: 0
   AoI: 0
+  SimulationCulling: 0
   CellSize: 450
   WorldSize: 8000
   UseSceneSwitchThread: 1
